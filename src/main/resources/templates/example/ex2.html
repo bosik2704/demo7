@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/exampleLayout}">
+<head>
+  <meta charset="UTF-8">
+  <title>.html</title>
+  <th:block th:insert="~{/include/bs5.html}"></th:block>
+</head>
+<body>
+<p><br/></p>
+<div layout:fragment="content" class="container text-center">
+  <h2>ex2.html</h2>
+  <div>
+    <a th:href="@{/}" class="btn btn-success">홈으로</a>
+  </div>
+</div>
+<p><br/></p>
+</body>
+</html>
