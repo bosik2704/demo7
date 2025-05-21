@@ -5,7 +5,7 @@ server:
 
 # Context Name Setting
 #  servlet:
-#    context-path: /demo6
+#    context-path: /demo7
 
 spring:
   application:
