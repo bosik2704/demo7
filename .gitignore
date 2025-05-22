@@ -15,7 +15,7 @@ build/
 .sts4-cache
 bin/
 !**/src/main/**/bin/
-!**/src/main/webapp/**
+!**/src/main/webapp/**/*.jpg
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
